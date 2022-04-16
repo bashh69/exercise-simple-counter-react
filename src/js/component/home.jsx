@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import React from "react";
 import { Counter } from "./Counter.js";
 //create your first component
@@ -9,7 +9,7 @@ const Home = () => {
 		</div>
 	);
 };
-=======
+
 import React, { useEffect, useState } from "react";
 
 export default function Auto() {
@@ -19,7 +19,6 @@ export default function Auto() {
   const interval = setInterval(() => {
    setCounter((counter) => counter + 1);
   }, 1000);
->>>>>>> 8269c84a4c2b58d04f60a47263686454e7886cad
 
   return () => {
    clearInterval(interval);
